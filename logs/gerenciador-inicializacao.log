@@ -1,0 +1,11 @@
+2019-10-09 09:29:16 INFO  InicializacaoModulosServiceIpml:115 - Configuração dos módulos não encontrada
+java.io.FileNotFoundException: C:\Users\s72\Documents\Leandro\SysDesc\gerenciador-inicializacao\config\server.json (O sistema não pode encontrar o arquivo especificado)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at br.com.sysdesc.gerenciador.inicializacao.service.impl.InicializacaoModulosServiceIpml.buscarConfiguracaoModulos(InicializacaoModulosServiceIpml.java:107)
+	at br.com.sysdesc.gerenciador.inicializacao.service.impl.InicializacaoModulosServiceIpml.iniciarModulos(InicializacaoModulosServiceIpml.java:68)
+	at br.com.sysdesc.gerenciador.inicializacao.ui.FrmPrincipal.lambda$1(FrmPrincipal.java:272)
+	at java.lang.Thread.run(Thread.java:748)
+2019-10-09 09:29:16 INFO  Reflections:232 - Reflections took 152 ms to scan 1 urls, producing 14 keys and 20 values 
+2019-10-09 09:29:16 INFO  ApisController:74 - encontrada url: /configuracaoModulo/atualizarConfiguracoes
