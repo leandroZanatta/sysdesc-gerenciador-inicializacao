@@ -1,8 +1,8 @@
 package br.com.sysdesc.gerenciador.inicializacao.statup;
 
 import br.com.sysdesc.gerenciador.inicializacao.ui.FrmPrincipal;
+import br.com.sysdesc.gerenciador.inicializacao.util.LookAndFeelUtil;
 import br.com.sysdesc.http.server.JavaHTTPServer;
-import br.com.sysdesc.util.classes.LookAndFeelUtil;
 import br.com.sysdesc.util.resources.ApplicationProperies;
 
 public class StartUp {
